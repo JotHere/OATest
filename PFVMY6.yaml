@@ -1,0 +1,37 @@
+purpose: to test how GitHub previews Yaml
+compact: {url: https://GitHub.com/JotHere/PFUpda, name:{is: PFUpda, source:{merge:[PFMEFD,{is: Update, source: PFMELH}]}}, description:{use:[PFMELH]}, begin:{initialize this repository with a README: true, 'add .gitignore':{is: Node, why: our 1st choice ‘PowerShell’ is not listed}, when:{end:{manual:{date: 2018.09.30SunPst09:12, id: PFVMEW}}},who:{user:{name: ObDest},is: default}, form: https://github.com/organizations/JotHere/repositories/new}, inh: PFVHYI, copy-then-fix:[[PFVK4A,is] ,complete],id: PFMEGV}
+'pretty via https://onlineyamltools.com/prettify-yaml':
+  url: 'https://GitHub.com/JotHere/PFUpda'
+  name:
+    is: PFUpda
+    source:
+      merge:
+        - PFMEFD
+        -
+          is: Update
+          source: PFMELH
+  description:
+    use:
+      - PFMELH
+  begin:
+    initialize: 'this repository with a README: true'
+    'add .gitignore':
+      is: Node
+      why: 'our 1st choice ‘PowerShell’ is not listed'
+    when:
+      end:
+        manual:
+          date: '2018.09.30SunPst09:12'
+          id: PFVMEW
+    who:
+      user:
+        name: ObDest
+      is: default
+    form: 'https://github.com/organizations/JotHere/repositories/new'
+  inh: PFVHYI
+  copy-then-fix:
+    -
+      - PFVK4A
+      - is
+    - complete
+  id: PFMEGV
